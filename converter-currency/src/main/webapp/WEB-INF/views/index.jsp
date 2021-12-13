@@ -12,7 +12,7 @@
   </head>
   <body>
   <form action="/change">
-    <input type="text" name="vnd" placeholder="USD">
+    <input type="text" name="usd" placeholder="USD">
     <input type="submit" value="Convert">
   </form>
   <h2>Result: ${result}</h2>

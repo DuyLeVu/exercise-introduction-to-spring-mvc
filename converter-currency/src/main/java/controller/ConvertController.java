@@ -13,8 +13,8 @@ public class ConvertController {
     }
 
     @GetMapping("/change")
-    public String convert(Model model, @RequestParam double vnd) {
-        model.addAttribute("result", (vnd * 23000));
+    public String convert(Model model, @RequestParam double usd) {
+        model.addAttribute("result", (usd * 23000));
         return "index";
     }
 }
